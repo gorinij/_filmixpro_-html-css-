@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+BODY {
+    background-color: black;
+    background-image: url(../images/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+DIV#WRAPPER {
+    max-width: 990px;
+    min-width: 440px;
+    max-height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    position: relative;
+}
+
+DIV#HEADER
+DIV#CONTENT
+DIV#FOOTER {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+#LOGO {
+    margin-top: 20px;
+    width: 520px;
+    height: 150px;
+}
+
+DIV#MENU #MENU_PUNTS {
+    list-style: none;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.MENU_PUNT {
+    display: inline;
+    margin: auto 20px;
+}
+
+.MENU_PUNT > A {
+    color: white;
+    text-decoration: none;
+}
+
+.MENU_PUNT:hover a {
+    cursor: pointer;
+    color: #754F22;
+}
+
+#CONTENT {
+    margin-top: 50px;
+}
+
+#ANONSES {
+    margin-top: 50px;
+}
+
+#ANONS_HEADER_TEXT {
+    color: #A86D35;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+#ANONS_FIRST_COLOMN {
+    float: left;
+    clear: both;
+}
+
+.ANONS_FILM {
+    float: left;
+    padding: 10px;
+    margin: 25px;
+    background-color: rgba(249, 137, 11, 0.3);
+    border-radius: 10px;
+    max-width: 175px;
+    min-height: 375px;
+}
+
+.ANONS_FILM:hover {
+    background-color: rgba(243, 143, 24, 0.7);
+    cursor: pointer;
+}
+
+.ANONS_FILM IMG {
+    width: 175px;
+    height: auto;
+}
+
+.ANONS_FILM_TITLE {
+    color: white;
+    margin: 10px auto 0px auto;
+}
+
+.ANONS_FILM_QUOTE {
+    font-style: oblique;
+    text-align: left;
+}
+
+#FOOTER_TEXT {
+    color: #666633;
+    float: right;
+    margin-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+			
+		
